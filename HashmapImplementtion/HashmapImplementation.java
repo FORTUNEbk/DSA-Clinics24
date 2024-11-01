@@ -58,9 +58,11 @@ class SimpleHashMap<K, V> {
         hashmap.put(1, "one");
         hashmap.put(2, "two");
         hashmap.put(3, "three");
+        hashmap.put(4, "four");
 
         System.out.println(hashmap.get(1));  
         System.out.println(hashmap.get(2));  
         System.out.println(hashmap.get(3));  
+        System.out.println(hashmap.get(4));
     }
 }
