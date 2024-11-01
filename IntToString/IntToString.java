@@ -5,6 +5,7 @@ public class IntToString {
         System.out.println(Convert(123));    
         System.out.println(Convert(-456));   
         System.out.println(Convert(120));   
+        System.out.println(Convert(357));
     }
 
     public static int Convert(int num) {
